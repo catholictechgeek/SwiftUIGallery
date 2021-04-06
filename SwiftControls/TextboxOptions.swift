@@ -12,7 +12,11 @@ struct TextboxOptions: View {
     var body: some View {
         VStack {
             Text("TextField").bold().padding(.bottom)
-            TextField("preview text", text: $viewdata.valuez).fromData(data: viewdata).padding(.all)
+            
+            ZStack{
+                Rectangle().foregroundColor(.white)
+                TextField("preview text", text: $viewdata.valuez).fromData(data: viewdata).padding(.all).zIndex(2)
+            }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: 1.5)
             VStack {
                 Text("Options").padding(.top)
                 ScrollView(.vertical, showsIndicators: false) {
