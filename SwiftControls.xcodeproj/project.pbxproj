@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,15 @@
 		2306D8B725C3EBC2001A7C10 /* SwiftControls.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2306D8B525C3EBC2001A7C10 /* SwiftControls.xcdatamodeld */; };
 		2306D8C225C3EBC3001A7C10 /* SwiftControlsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2306D8C125C3EBC3001A7C10 /* SwiftControlsTests.swift */; };
 		2306D8CD25C3EBC3001A7C10 /* SwiftControlsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2306D8CC25C3EBC3001A7C10 /* SwiftControlsUITests.swift */; };
+		2306D8DE25C3EC0A001A7C10 /* ButtonOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2306D8DD25C3EC0A001A7C10 /* ButtonOptions.swift */; };
+		2306D8E825C3ED27001A7C10 /* TextboxOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2306D8E725C3ED27001A7C10 /* TextboxOptions.swift */; };
+		2306D8ED25C3EDD0001A7C10 /* TextblockOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2306D8EC25C3EDD0001A7C10 /* TextblockOptions.swift */; };
+		2306D8F225C4B579001A7C10 /* ControlTransformations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2306D8F125C4B579001A7C10 /* ControlTransformations.swift */; };
+		2306D8F725C4B5E1001A7C10 /* TextblockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2306D8F625C4B5E1001A7C10 /* TextblockData.swift */; };
+		2306D8FC25C4C275001A7C10 /* TextboxData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2306D8FB25C4C275001A7C10 /* TextboxData.swift */; };
+		2306D90125C4C2FC001A7C10 /* ButtonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2306D90025C4C2FC001A7C10 /* ButtonData.swift */; };
+		2306D90725CB55EB001A7C10 /* LNPopupUI-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 2306D90625CB55EB001A7C10 /* LNPopupUI-Static */; };
+		23993D2E25D24F5D004D8335 /* ColorEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23993D2D25D24F5D004D8335 /* ColorEnums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,14 @@
 		2306D8C825C3EBC3001A7C10 /* SwiftControlsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftControlsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2306D8CC25C3EBC3001A7C10 /* SwiftControlsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftControlsUITests.swift; sourceTree = "<group>"; };
 		2306D8CE25C3EBC3001A7C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2306D8DD25C3EC0A001A7C10 /* ButtonOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonOptions.swift; sourceTree = "<group>"; };
+		2306D8E725C3ED27001A7C10 /* TextboxOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextboxOptions.swift; sourceTree = "<group>"; };
+		2306D8EC25C3EDD0001A7C10 /* TextblockOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextblockOptions.swift; sourceTree = "<group>"; };
+		2306D8F125C4B579001A7C10 /* ControlTransformations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlTransformations.swift; sourceTree = "<group>"; };
+		2306D8F625C4B5E1001A7C10 /* TextblockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextblockData.swift; sourceTree = "<group>"; };
+		2306D8FB25C4C275001A7C10 /* TextboxData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextboxData.swift; sourceTree = "<group>"; };
+		2306D90025C4C2FC001A7C10 /* ButtonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonData.swift; sourceTree = "<group>"; };
+		23993D2D25D24F5D004D8335 /* ColorEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorEnums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2306D90725CB55EB001A7C10 /* LNPopupUI-Static in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +124,14 @@
 				2306D8B825C3EBC2001A7C10 /* Info.plist */,
 				2306D8B525C3EBC2001A7C10 /* SwiftControls.xcdatamodeld */,
 				2306D8B025C3EBC2001A7C10 /* Preview Content */,
+				2306D8DD25C3EC0A001A7C10 /* ButtonOptions.swift */,
+				2306D8E725C3ED27001A7C10 /* TextboxOptions.swift */,
+				2306D8EC25C3EDD0001A7C10 /* TextblockOptions.swift */,
+				2306D8F125C4B579001A7C10 /* ControlTransformations.swift */,
+				2306D8F625C4B5E1001A7C10 /* TextblockData.swift */,
+				2306D8FB25C4C275001A7C10 /* TextboxData.swift */,
+				2306D90025C4C2FC001A7C10 /* ButtonData.swift */,
+				23993D2D25D24F5D004D8335 /* ColorEnums.swift */,
 			);
 			path = SwiftControls;
 			sourceTree = "<group>";
@@ -152,6 +178,9 @@
 			dependencies = (
 			);
 			name = SwiftControls;
+			packageProductDependencies = (
+				2306D90625CB55EB001A7C10 /* LNPopupUI-Static */,
+			);
 			productName = SwiftControls;
 			productReference = 2306D8A725C3EBC0001A7C10 /* SwiftControls.app */;
 			productType = "com.apple.product-type.application";
@@ -223,6 +252,9 @@
 				Base,
 			);
 			mainGroup = 2306D89E25C3EBC0001A7C10;
+			packageReferences = (
+				2306D90525CB55EA001A7C10 /* XCRemoteSwiftPackageReference "LNPopupUI" */,
+			);
 			productRefGroup = 2306D8A825C3EBC0001A7C10 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -265,10 +297,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2306D8DE25C3EC0A001A7C10 /* ButtonOptions.swift in Sources */,
+				2306D8F725C4B5E1001A7C10 /* TextblockData.swift in Sources */,
+				2306D8FC25C4C275001A7C10 /* TextboxData.swift in Sources */,
+				2306D8ED25C3EDD0001A7C10 /* TextblockOptions.swift in Sources */,
+				2306D8F225C4B579001A7C10 /* ControlTransformations.swift in Sources */,
 				2306D8B425C3EBC2001A7C10 /* Persistence.swift in Sources */,
+				23993D2E25D24F5D004D8335 /* ColorEnums.swift in Sources */,
 				2306D8AD25C3EBC0001A7C10 /* ContentView.swift in Sources */,
 				2306D8AB25C3EBC0001A7C10 /* SwiftControlsApp.swift in Sources */,
 				2306D8B725C3EBC2001A7C10 /* SwiftControls.xcdatamodeld in Sources */,
+				2306D8E825C3ED27001A7C10 /* TextboxOptions.swift in Sources */,
+				2306D90125C4C2FC001A7C10 /* ButtonData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +628,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2306D90525CB55EA001A7C10 /* XCRemoteSwiftPackageReference "LNPopupUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LeoNatan/LNPopupUI";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.2.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2306D90625CB55EB001A7C10 /* LNPopupUI-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2306D90525CB55EA001A7C10 /* XCRemoteSwiftPackageReference "LNPopupUI" */;
+			productName = "LNPopupUI-Static";
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		2306D8B525C3EBC2001A7C10 /* SwiftControls.xcdatamodeld */ = {

@@ -13,7 +13,11 @@ struct SwiftControlsApp: App {
 
     var body: some Scene {
         WindowGroup {
+            /*
             ContentView()
+                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+ */
+            TextblockOptions()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
